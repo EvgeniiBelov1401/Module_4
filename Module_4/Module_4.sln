@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.4", "Exercise_4.1.4\Exercise_4.1.4.csproj", "{2D217A93-B2CB-434A-8A62-39FA92BF5821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.4", "Exercise_4.1.4\Exercise_4.1.4.csproj", "{2D217A93-B2CB-434A-8A62-39FA92BF5821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.5", "Exercise_4.1.5\Exercise_4.1.5.csproj", "{8DF164DA-7BB1-4C18-90D4-44AD7123C064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.5", "Exercise_4.1.5\Exercise_4.1.5.csproj", "{8DF164DA-7BB1-4C18-90D4-44AD7123C064}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.10", "Exercise_4.1.10\Exercise_4.1.10.csproj", "{1B2ADAF1-F868-4B48-8C7A-2C5F6E2699F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.10", "Exercise_4.1.10\Exercise_4.1.10.csproj", "{1B2ADAF1-F868-4B48-8C7A-2C5F6E2699F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.11", "Exercise_4.1.11\Exercise_4.1.11.csproj", "{0043A94B-3274-4E6A-A55F-F2AED204456C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.11", "Exercise_4.1.11\Exercise_4.1.11.csproj", "{0043A94B-3274-4E6A-A55F-F2AED204456C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.12", "Exercise_4.1.12\Exercise_4.1.12.csproj", "{A1CC3CB1-A7D4-4743-93D5-D879ADC9DE31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.12", "Exercise_4.1.12\Exercise_4.1.12.csproj", "{A1CC3CB1-A7D4-4743-93D5-D879ADC9DE31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.15", "Exercise_4.1.15\Exercise_4.1.15.csproj", "{2E45238B-2D84-4BED-9287-FA17828CB90A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.15", "Exercise_4.1.15\Exercise_4.1.15.csproj", "{2E45238B-2D84-4BED-9287-FA17828CB90A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.17", "Exercise_4.1.17\Exercise_4.1.17.csproj", "{E3F54E8C-3F6B-4C3A-93E5-197D4E28625E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.17", "Exercise_4.1.17\Exercise_4.1.17.csproj", "{E3F54E8C-3F6B-4C3A-93E5-197D4E28625E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.1.18", "Exercise_4.1.18\Exercise_4.1.18.csproj", "{F417205A-AAD1-4FF7-867F-AFDD20C9480A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercise_4.1.18", "Exercise_4.1.18\Exercise_4.1.18.csproj", "{F417205A-AAD1-4FF7-867F-AFDD20C9480A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise_4.2.11", "Exercise_4.2.11\Exercise_4.2.11.csproj", "{074EE845-D670-4022-9AE0-71425DED33E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F417205A-AAD1-4FF7-867F-AFDD20C9480A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F417205A-AAD1-4FF7-867F-AFDD20C9480A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F417205A-AAD1-4FF7-867F-AFDD20C9480A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074EE845-D670-4022-9AE0-71425DED33E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074EE845-D670-4022-9AE0-71425DED33E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074EE845-D670-4022-9AE0-71425DED33E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074EE845-D670-4022-9AE0-71425DED33E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
