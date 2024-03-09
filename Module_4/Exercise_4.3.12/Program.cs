@@ -21,9 +21,9 @@
                 {
                     if (arr[i] > arr[k])
                     {
-                        Value = arr[i];
-                        arr[i] = arr[k];
-                        arr[k] = Value;
+                        Value = arr[k];
+                        arr[k] = arr[i];
+                        arr[i] = Value;
                     }
                 }
             }
