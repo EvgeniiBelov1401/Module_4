@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             (string Name, string Type, double Age) Pet;
-            //var Pet=(Name:"Тимофей",Type:"Кот",Age:14);
+            //var Pet=(Name:"Тимофей",Type:"Кот",Age:14);   
         }
     }
 }
