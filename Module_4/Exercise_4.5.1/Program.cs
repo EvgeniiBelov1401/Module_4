@@ -10,47 +10,52 @@ namespace Exercise_4._5._1
             string pet;
             User.favcolors=new string[3];
 
-            Console.Write("Введите Ваше имя: ");
-            User.Name = Console.ReadLine();
-            
-            Console.Write("Введите Вашу фамилию: ");
-            User.LastName = Console.ReadLine();
-            
-            Console.Write("Введите Ваш возраст: ");
-            User.Age=double.Parse(Console.ReadLine());
-            
-            Console.Write("Введите Ваш Логин: ");
-            User.Login = Console.ReadLine();
-            User.LoginLength = User.Login.Length;
-            
-            Console.Write("Если есть домашнее животное, введите \"да\": ");
-            pet = Console.ReadLine();
-            if (pet == "да")
+            for (int j=0;j<3;j++)
             {
-                User.HasPet = true;
+                Console.WriteLine($"Введите информацию о Пользователе №{j+1}");
+                Console.Write("Введите Ваше имя: ");
+                User.Name = Console.ReadLine();
+
+                Console.Write("Введите Вашу фамилию: ");
+                User.LastName = Console.ReadLine();
+
+                Console.Write("Введите Ваш возраст: ");
+                User.Age = double.Parse(Console.ReadLine());
+
+                Console.Write("Введите Ваш Логин: ");
+                User.Login = Console.ReadLine();
+                User.LoginLength = User.Login.Length;
+
+                Console.Write("Если есть домашнее животное, введите \"да\": ");
+                pet = Console.ReadLine();
+                if (pet == "да")
+                {
+                    User.HasPet = true;
+                }
+                else
+                {
+                    User.HasPet = false;
+                }
+
+                Console.WriteLine("Введите 3 любимых цвета: ");
+                for (int i = 0; i < User.favcolors.Length; i++)
+                {
+                    Console.Write($"Цвет №{i + 1}: ");
+                    User.favcolors[i] = Console.ReadLine();
+                }
+                Console.ReadKey();
+                Console.WriteLine($"\n******** Показать всю информацию о пользователе {j+1} ********\n");
+                Console.ReadKey();
+                Console.WriteLine($"Пользователь: {User.LastName} {User.Name}\n" +
+                    $"Возраст: {User.Age}\nЛогин: {User.Login}\t({User.LoginLength} символов)\n" +
+                    $"Домашнее животное: {User.HasPet}\nЛюбимые цвета: ");
+                for (int i = 0; i < User.favcolors.Length; i++)
+                {
+                    Console.Write($"{User.favcolors[i]} ");
+                }
+                Console.WriteLine("\n\n");
+                Console.ReadKey();
             }
-            else
-            {
-                User.HasPet= false;
-            }
-            
-            Console.WriteLine("Введите 3 любимых цвета: ");
-            for (int i=0;i<User.favcolors.Length;i++)
-            {
-                Console.Write($"Цвет №{i + 1}: ");
-                User.favcolors[i] = Console.ReadLine();
-            }
-            Console.ReadKey();
-            Console.WriteLine("\n******** Показать всю информацию о пользователе ********\n");
-            Console.ReadKey();
-            Console.WriteLine($"Пользователь: {User.LastName} {User.Name}\n" +
-                $"Возраст: {User.Age}\nЛогин: {User.Login}\t({User.LoginLength} символов)\n" +
-                $"Домашнее животное: {User.HasPet}\nЛюбимые цвета: ");
-            for(int i = 0; i < User.favcolors.Length; i++)
-            {
-                Console.Write($"{User.favcolors[i]} ");
-            }
-            Console.ReadKey();
         }
     }
 }
