@@ -10,8 +10,7 @@
             Console.Write("Ваше имя по буквам: ");
             foreach (var ch in name)
             {
-                Console.Write($"{ch} ");
-                char lastLetter = ch;
+                Console.Write($"{ch} ");    
             }
             Console.WriteLine($"\nПоследняя буква: {name[name.Length-1]}") ;
             Console.ReadKey();
